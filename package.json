@@ -5,7 +5,8 @@
   "dependencies": {
     "canned": "0.3.12",
     "react": "16.3.2",
-    "react-dom": "16.3.2"
+    "react-dom": "16.3.2",
+    "react-ionicons": "^3.0.1"
   },
   "devDependencies": {
     "@storybook/react": "3.4.3",

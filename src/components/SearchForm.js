@@ -1,4 +1,5 @@
 import React from "react";
+import IosSearch from "../../node_modules/react-ionicons/lib/IosSearch";
 
 const SearchForm = () => {
   return (
@@ -10,7 +11,9 @@ const SearchForm = () => {
         placeholder="Zoeken"
       />
 
-      <button className="search-button" type="submit" />
+      <button className="search-button" type="submit">
+        <IosSearch />
+      </button>
     </form>
   );
 };
