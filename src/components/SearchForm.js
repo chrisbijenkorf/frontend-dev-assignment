@@ -8,9 +8,9 @@ const SearchForm = () => {
       <div className="form-element">
         <input
           autoComplete="off"
-          autocapitalize="off"
-          autocorrect="off"
-          spellcheck="off"
+          autoCapitalize="off"
+          autoCorrect="off"
+          spellCheck="off"
           type="search"
           name="query"
           className="search-input"
