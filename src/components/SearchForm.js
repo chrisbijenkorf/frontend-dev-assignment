@@ -1,6 +1,6 @@
 import React from "react";
 import IosSearch from "../../node_modules/react-ionicons/lib/IosSearch";
-import "../css/SearchForm.css";
+import "../css/searchForm.css";
 
 const SearchForm = () => {
   return (
@@ -17,7 +17,7 @@ const SearchForm = () => {
           placeholder="Zoeken"
         />
         <button className="search-button" type="submit">
-          <IosSearch color="#3e3e3e" fontSize="17px" />
+          <IosSearch color="#777" fontSize="17px" />
         </button>
       </div>
     </form>

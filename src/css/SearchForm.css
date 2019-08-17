@@ -1,4 +1,4 @@
-form.search-form {
+.search-form {
   margin: 50px;
   margin-right: auto;
   margin-left: auto;
@@ -7,22 +7,30 @@ form.search-form {
 
 .form-element {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-center;
   border: 1px solid #d8d8d8;
 }
 
 .form-element,
-input.search-input {
+.search-input {
   width: 100%;
   height: 100%;
   font-size: 12px;
-  padding: 0.3rem 0.3rem;
-  letter-spacing: 0.03rem;
+  padding: 0.4em 0.4em;
+  letter-spacing: 0.03em;
+}
+.search-input,
+.search-button {
+  outline: none;
+  border: none;
+  overflow: hidden;
+  background-color: #fff;
 }
 
-input.search-input,
-button.search-button {
-  outline: transparent;
-  border: transparent;
-  overflow: hidden;
+::placeholder {
+  color: #777;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
 }
